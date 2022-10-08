@@ -61,8 +61,8 @@ body,
 }
 /* Hero site */
 .hero {
- background-color: var(--brand-background);
- text-align: center;
+  background-color: var(--brand-background);
+  text-align: center;
 }
 .hero-text {
   color: var(--brand-white);
@@ -85,6 +85,7 @@ body,
   background: var(--button-main-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: none;
 }
 button:hover,
 button:focus {
@@ -94,22 +95,27 @@ button:focus {
   border-radius: 4px;
 }
 
-.button2 {
-  font-weight: 500;
+.text-button {
+  font-family: 'Roboto';
+  color: var(--brand-black);
+   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
-  background: #f5f4fa;
-  border-radius: 4px;
-  color: #212121;
   text-align: center;
+  font-style: normal;
+}
+.button2 {
+  background: #f5f4fa;
+  color: var(--brand-black);
   letter-spacing: 0.03em;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border: none;
 }
 .button2:hover {
-  background: var(--brand-blue);
   color: var(--brand-white);
   cursor: pointer;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 
 .button2:focus {
@@ -191,7 +197,11 @@ button:focus {
 .contacts-footer:focus {
   color: var(--brand-blue);
 }
-
+/* Address map*/
 .address-color {
   color: var(--brand-white);
+}
+/* Убираем маркеры */
+ul {
+  list-style: none;
 }
