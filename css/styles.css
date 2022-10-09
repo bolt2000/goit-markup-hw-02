@@ -7,6 +7,7 @@
   --brand-background: #2f303a;
   --brand-background2: #f5f4fa;
   --brand-logo: #000000;
+  --brand-footer:rgba(255, 255, 255, 0.6);
 }
 
 body,
@@ -14,6 +15,7 @@ body,
   font-family: 'Roboto', sans-serif;
   color: var(--brand-body);
   font-size: 14px;
+  font-weight: 400;
 }
 /* Logo */
 .logo {
@@ -131,6 +133,7 @@ button:focus {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
+  letter-spacing: 0.03em;
 }
 
 .title1 {
@@ -143,8 +146,6 @@ button:focus {
 }
 /* text p1 */
 .p1-text {
-  font-weight: 400;
-  font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
 }
@@ -154,16 +155,17 @@ button:focus {
 }
 
 .title-human {
-  font-style: normal;
   color: var(--brand-black);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.187;
+  letter-spacing: 0.03em;
 }
 /* text p2 index*/
 .p2-text {
   font-size: 16px;
   line-height: 1.187;
+  letter-spacing: 0.03em;
 }
 
 /* H3 text site-Portfolio */
@@ -192,10 +194,10 @@ button:focus {
 }
 
 .contacts-footer {
-  font-size: 14px;
+  font-weight: inherit;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--brand-footer);
 }
 
 .contacts-footer:hover,
