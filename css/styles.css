@@ -51,7 +51,6 @@ body,
 .link,
 .logo,
 .link-footer,
-.address-color,
 .list-photo {
   text-decoration: none;
 }
@@ -203,10 +202,7 @@ button:focus {
 .contacts-footer:focus {
   color: var(--brand-blue);
 }
-/* Address map*/
-.address-color {
-  color: var(--brand-white);
-}
+
 /* Убираем маркеры */
 ul {
   list-style: none;
