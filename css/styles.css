@@ -1,21 +1,24 @@
 :root {
+  --brand-body: #757575;
   --brand-blue: #2196f3;
   --brand-black: #212121;
   --brand-white: #ffffff;
   --button-main-color: #188ce8;
   --brand-background: #2f303a;
+  --brand-background2: #f5f4fa;
+  --brand-logo: #000000;
 }
 
 body,
 .link-footer {
   font-family: 'Roboto', sans-serif;
-  color: #757575;
+  color: var(--brand-body);
   font-size: 14px;
 }
 /* Logo */
 .logo {
   font-family: raleway;
-  color: #000000;
+  color: var(--brand-logo);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -37,7 +40,7 @@ body,
 }
 /* Contacts */
 .link {
-  color: #757575;
+  color: var(--brand-body);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -48,7 +51,8 @@ body,
 .link,
 .logo,
 .link-footer,
-.address-color {
+.address-color,
+.list-photo {
   text-decoration: none;
 }
 
@@ -96,16 +100,16 @@ button:focus {
 }
 
 .text-button {
-  font-family: 'Roboto';
+  font-family: inherit;
   color: var(--brand-black);
-   font-weight: 500;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
   text-align: center;
   font-style: normal;
 }
 .button2 {
-  background: #f5f4fa;
+  background: var(--brand-background2);
   color: var(--brand-black);
   letter-spacing: 0.03em;
   border: none;
@@ -147,7 +151,7 @@ button:focus {
 }
 /* Us team */
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--brand-background2);
 }
 
 .title-human {
@@ -162,13 +166,14 @@ button:focus {
   font-size: 16px;
   line-height: 1.187;
 }
+
 /* H3 text site-Portfolio */
 .title-2 {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--brand-black);
 }
 
 /* text p site-Portfolio */
@@ -176,6 +181,7 @@ button:focus {
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
+  color: var(--brand-body);
 }
 
 .footer {
@@ -205,3 +211,7 @@ button:focus {
 ul {
   list-style: none;
 }
+
+/* .list {
+  display: inline-flex;
+} */
