@@ -29,7 +29,7 @@ body,
 .logo-color {
   color: var(--brand-blue);
 }
-.logo-color2 {
+.logo-color-footer {
   color: var(--brand-white);
 }
 /* Header Navigation */
@@ -136,7 +136,7 @@ button:focus {
   letter-spacing: 0.03em;
 }
 
-.title1 {
+.title {
   color: var(--brand-black);
   font-weight: 700;
   font-size: 14px;
@@ -145,7 +145,7 @@ button:focus {
   text-transform: uppercase;
 }
 /* text p1 */
-.p1-text {
+.title-text {
   line-height: 1.714;
   letter-spacing: 0.03em;
 }
@@ -162,14 +162,14 @@ button:focus {
   letter-spacing: 0.03em;
 }
 /* text p2 index*/
-.p2-text {
+.team-text {
   font-size: 16px;
   line-height: 1.187;
   letter-spacing: 0.03em;
 }
 
 /* H3 text site-Portfolio */
-.title-2 {
+.title-images {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -178,7 +178,7 @@ button:focus {
 }
 
 /* text p site-Portfolio */
-.p3-text {
+.images-text {
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
